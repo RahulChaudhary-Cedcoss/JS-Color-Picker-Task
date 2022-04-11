@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Pickker</title>
+    <style>
+        body {
+            border: 10% solid black;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        
+        <button type="button" onclick="changeBodyBg('yellow');">Yellow</button>
+        <button type="button" onclick="changeBodyBg('lime');">Lime</button>
+        <button type="button" onclick="changeBodyBg('orange');">Orange</button>
+        <button type="button" onclick="changeBodyBg('pink');">Pink</button>
+        <button type="button" onclick="changeBodyBg('blue');">Blue</button>
+    </div>
+</body>
+</html>
+
+<script>
+    function changeBodyBg(color){
+        document.body.style.background = color;
+    }
+   
+</script>
+<!-- <script>
+
+var a = ["red", "black", "blue", "pink", "yellow"];
+function add() {
+for(let i=0; i<a.length; i++) {
+    if(i==0) {
+document.body.style.background = a[0];
+    }
+    else if(i==1) {
+document.body.style.background = a[1];
+    }
+    else if(i==2) {
+document.body.style.background = a[2];
+    }
+    else if(i==3) {
+document.body.style.background = a[3];
+    }
+    else if(i==4) {
+document.body.style.background = a[4];
+    }
+}
+}
+
+
+</script> -->
